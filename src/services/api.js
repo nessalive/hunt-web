@@ -1,5 +1,5 @@
 import axios from 'axios';
 
-const api = axios.create({baseURL: 'https://hn.algolia.com/api/v1/search?query='});
+const api = axios.create({baseURL: 'https://rocketseat-node.herokuapp.com/api'});
 
 export default api;
